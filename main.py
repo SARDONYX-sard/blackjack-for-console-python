@@ -1,19 +1,19 @@
 import random
+
 from card import Card
-from player import Player
 from dealer import Dealer
+from player import Player
 
 
 class Blackjack:
     def __init__(self):
+        self.message = 'You win.'
         self.cards = [Card(i) for i in range(52)]
         random.shuffle(self.cards)
-        pass  # ここに追加してください
         self.player = Player()
         self.dealer = Dealer()
 
     def start_game(self):
-        pass  # ここを修正してください
         for _ in range(2):
             self.player.draw(self)
             self.dealer.draw(self)
@@ -25,8 +25,7 @@ class Blackjack:
             dealer_point = self.dealer.point()
             if player_point == dealer_point:
                 self.message = 'Draw'
-            elif dealer_point >= 22 or dealer_point < player_point:
-                self.message = 'You win.'
+
         self.show(False)
         print(self.message)
 

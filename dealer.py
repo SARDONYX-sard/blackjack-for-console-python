@@ -3,7 +3,6 @@ from owner import Blackjack, Owner
 
 class Dealer(Owner):
     def act(self, bj):
-        pass  # ここを修正してください
         while self.point() <= 16:
             self.draw(bj)
 
