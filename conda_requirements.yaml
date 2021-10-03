@@ -4,6 +4,5 @@ channels:
   - defaults
 dependencies:
   - pyinstaller=3.6=py39h8cc25b3_6
-  - pylint=2.7.4=py39haa95532_1
 
 prefix: C:\Users\SARDONYX\anaconda3\envs\latest-python

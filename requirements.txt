@@ -1,2 +1,2 @@
-pyinstaller=3.6
-pylint=2.7.4
+pyinstaller >= 3.6
+
