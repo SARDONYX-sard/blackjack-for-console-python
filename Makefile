@@ -4,13 +4,13 @@ exec:
 setup:
 		conda env create -f conda_requirements.yaml
 
-build:
+build: clean
 		pyinstaller main.py --onefile -n blackjack
 
 test:
 		Python -m unittest discover __test__ && make clean
 
 clean:
-		rm -rf  **/__pycache__ **/**/__pycache__
+		rm -rf  **/__pycache__ **/**/__pycache__ build dist *.spec
 
 .PHONY: clean test
