@@ -1,0 +1,26 @@
+# workflowの名前
+name: BlackJack / Build & Test
+
+# トリガーの設定
+on:
+  push:
+    branches: [master] # mainブランチの場合はmainに変更
+
+jobs:
+  build:
+    runs-on: ubuntu-latest # 実行環境の設定
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: make exe file
+        run: make build
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+      - run: pip install -r requirements.txt
+      - name: Run unittest
+        run: make test
