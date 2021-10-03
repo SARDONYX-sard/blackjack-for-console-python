@@ -2,13 +2,11 @@
 
 ## Usage
 
-- Execute Blackjack
+- just opens `dist/blackjack.exe`
 
-```shell
-make
-```
+## Development
 
-- Install Dependencies
+- Install Dependencies(execute first step)
 
 if you are using Anaconda3
 
@@ -16,10 +14,16 @@ if you are using Anaconda3
 make setup
 ```
 
-pip
+if you are using pip
 
 ```shell
 pip install -r requirements.txt
+```
+
+- Execute Blackjack (You have to execute the command `make setup`)
+
+```shell
+make
 ```
 
 - test Blackjack
