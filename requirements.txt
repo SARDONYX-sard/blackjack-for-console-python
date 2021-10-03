@@ -1,2 +1,2 @@
-PyInstaller @ file:///C:/ci/pyinstaller_1615968715952/work
-pylint @ file:///C:/ci/pylint_1617136059240/work
+pyinstaller=3.6
+pylint=2.7.4
