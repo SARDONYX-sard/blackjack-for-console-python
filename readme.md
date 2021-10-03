@@ -6,7 +6,11 @@
 
 ## Development
 
-- Install Dependencies(execute first step)
+### dev requirements
+
+- python 3.6 or higher
+
+#### Install Dependencies(execute first step)
 
 if you are using Anaconda3
 
@@ -20,14 +24,14 @@ if you are using pip
 pip install -r requirements.txt
 ```
 
-- Execute Blackjack (You have to execute the command `make setup`)
+#### Execute Blackjack (You have to execute the command `make setup`)
 
 ```shell
 make
 ```
 
-- test Blackjack
+#### test Blackjack
 
 ```shell
-make
+make test
 ```
