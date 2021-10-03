@@ -4,7 +4,7 @@ import sys
 from src.utils.card import Card
 
 # 一個上の階層をpathに追加
-sys.path.append('../')
+sys.path.append('../../src')
 
 
 class Blackjack:

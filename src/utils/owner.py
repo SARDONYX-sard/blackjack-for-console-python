@@ -4,7 +4,7 @@ from src.utils.card import Card
 from src.utils.game_part import Blackjack
 
 # 一個上の階層をpathに追加
-sys.path.append('../')
+sys.path.append('../../src')
 
 
 class Owner:
