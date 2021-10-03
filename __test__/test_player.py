@@ -4,7 +4,7 @@ import unittest
 from src.utils.game_part import Blackjack
 from src.utils.player import Player
 
-sys.path.append('../src/')
+sys.path.append('../../blackjack-for-console-python')
 
 
 class TestOwner(unittest.TestCase):
