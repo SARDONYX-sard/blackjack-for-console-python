@@ -1,7 +1,10 @@
+import sys
 import unittest
 
 from src.utils.dealer import Dealer
 from src.utils.game_part import Blackjack
+
+sys.path.append('../src/')
 
 
 class TestDealer(unittest.TestCase):

@@ -1,8 +1,10 @@
-
+import sys
 import unittest
 
 from src.utils.game_part import Blackjack
 from src.utils.player import Player
+
+sys.path.append('../src/')
 
 
 class TestOwner(unittest.TestCase):
