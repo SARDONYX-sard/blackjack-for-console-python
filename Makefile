@@ -1,7 +1,10 @@
 exec:
-		poetry run python main.py
+		poetry run py -3 -m src
 
-setup:
+i:
+		make install
+
+install:
 		poetry install --no-interaction
 
 build: clean
