@@ -6,7 +6,7 @@ from utils.dealer import Dealer
 from utils.player import Player
 
 # 一個上の階層をpathに追加
-sys.path.append('../../blackjack-for-console-python')
+sys.path.append('../../blackjack-for-console-python/src/utils')
 
 
 class Blackjack:

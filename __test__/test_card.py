@@ -3,7 +3,7 @@ import unittest
 
 from utils.card import Card
 
-sys.path.append('../../blackjack-for-console-python')
+sys.path.append('../../blackjack-for-console-python/src/utils')
 
 
 class TestCard(unittest.TestCase):

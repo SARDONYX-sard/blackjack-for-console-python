@@ -4,7 +4,7 @@ import unittest
 from utils.dealer import Dealer
 from utils.game_part import Blackjack
 
-sys.path.append('../../blackjack-for-console-python')
+sys.path.append('../../blackjack-for-console-python/src/utils')
 
 
 class TestDealer(unittest.TestCase):

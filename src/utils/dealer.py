@@ -5,7 +5,7 @@ from game_part import Blackjack
 from owner import Owner
 
 # 一個上の階層をpathに追加
-sys.path.append('../../blackjack-for-console-python')
+sys.path.append('../../blackjack-for-console-python/src/utils')
 
 
 class Dealer(Owner):
