@@ -45,6 +45,10 @@ jobs:
       - name: Install Dependencies
         run: poetry install --no-interaction
 
+      # 仮想環境に入って異なるpythonバージョンで実行する
+      - name: Enter the virtual environment
+        run: poetry poetry env use ${{ matrix.python-version }}
+
       # 構文チェック
       - name: Lint with flake8
         run: |
