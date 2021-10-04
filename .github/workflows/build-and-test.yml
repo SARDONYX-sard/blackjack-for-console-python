@@ -43,7 +43,7 @@ jobs:
 
       # 仮想環境に入って異なるpythonバージョンで実行する
       - name: Enter the virtual environment
-        run: poetry poetry env use ${{ matrix.python-version }}
+        run: poetry env use ${{ matrix.python-version }}
 
       # インストールした Poetry を使って必要な Python パッケージをインストールする
       - name: Install Dependencies
