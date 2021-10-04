@@ -9,21 +9,14 @@
 ### Requirements
 
 - python 3.6 or higher
+- poetry(package maneger): <https://raw.githubusercontent.com/python-poetry/poetry/master/install>
 
 ### make Usage
 
 - Install Dependencies(execute first step)
 
-if you are using Anaconda3
-
 ```shell
 make setup
-```
-
-if you are using pip
-
-```shell
-pip install -r requirements.txt
 ```
 
 - Execute Blackjack (You have to execute the command `make setup`)
