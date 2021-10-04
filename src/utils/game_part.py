@@ -1,10 +1,6 @@
 import random
-import sys
 
 from .card import Card
-
-# 一個上の階層をpathに追加
-sys.path.append('../../blackjack-for-console-python/src/utils')
 
 
 class Blackjack:

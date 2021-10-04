@@ -21,5 +21,5 @@ class TestDealer(unittest.TestCase):
         self.twotime = dealer.sequence()
 
     def test_evalate(self):
-        self.assertRegex("♥6, ♦5, ♥5, ♥3", self.onetime)
-        self.assertRegex("♥3, ♠4, ♦10", self.twotime)
+        self.assertEqual("♥6, ♦5, ♥5, ♥3", self.onetime)
+        self.assertEqual("♥3, ♠4, ♦10", self.twotime)

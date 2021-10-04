@@ -24,5 +24,5 @@ class TestOwner(unittest.TestCase):
         self.twotime = own.sequence()
 
     def test_evalate(self):
-        self.assertRegex("♥5, ♣A", self.onetime)
-        self.assertRegex("♥5, ♣A, ♠6", self.twotime)
+        self.assertEqual("♥5, ♣A", self.onetime)
+        self.assertEqual("♥5, ♣A, ♠6", self.twotime)

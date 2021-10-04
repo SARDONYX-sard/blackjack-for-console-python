@@ -36,6 +36,6 @@ class TestOwner(unittest.TestCase):
         self.threetime = player.sequence()
 
     def test_evalate(self):
-        self.assertRegex("♠3, ♦K, ♣7, ♣3", self.onetime)
-        self.assertRegex("♥A, ♠3, ♦4, ♥7, ♠4, ♠A, ♣K", self.twotime)
-        self.assertRegex("♠Q, ♥10, ♣A", self.threetime)
+        self.assertEqual("♠3, ♦K, ♣7, ♣3", self.onetime)
+        self.assertEqual("♥A, ♠3, ♦4, ♥7, ♠4, ♠A, ♣K", self.twotime)
+        self.assertEqual("♠Q, ♥10, ♣A", self.threetime)

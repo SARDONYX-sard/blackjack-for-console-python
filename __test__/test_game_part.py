@@ -18,4 +18,4 @@ class TestOwner(unittest.TestCase):
             [f"{bj.pop()}", f"{bj.pop()}", f"{bj.pop()}", f"{bj.pop()}", f"{bj.pop()}", ])
 
     def test_evalate(self):
-        self.assertRegex("♠3, ♦K, ♣7, ♣3, ♠K", f"{self.onetime}")
+        self.assertEqual("♠3, ♦K, ♣7, ♣3, ♠K", f"{self.onetime}")

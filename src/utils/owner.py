@@ -1,10 +1,6 @@
-import sys
 
 from .card import Card
 from .game_part import Blackjack
-
-# 一個上の階層をpathに追加
-sys.path.append('../../blackjack-for-console-python/src/utils')
 
 
 class Owner:
@@ -26,7 +22,8 @@ class Owner:
 
         # hand: 手札(英語)
         hand = ', '.join(str(card) for card in self.hands)
-        return hand[:2] + hand[6:8] + ', ' if hide else '**'
+        # return hand[:2] + hand[6:8] + ', ' if hide else '**'
+        return hand[:2] + '**' + hand[6:] if hide else hand
 
     def get_point(self) -> int:
         """現在の得点を返す
