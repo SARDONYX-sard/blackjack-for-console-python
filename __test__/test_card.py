@@ -1,9 +1,6 @@
-from src.utils.card import Card
-import sys
 import unittest
 
-import src
-sys.path.append(src.__path__)
+from src.utils.card import Card
 
 
 class TestCard(unittest.TestCase):
