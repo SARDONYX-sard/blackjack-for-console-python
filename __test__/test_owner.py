@@ -1,15 +1,11 @@
 import sys
 import unittest
 
-from utils.game_part import Blackjack
-from utils.owner import Owner
+from src.utils.game_part import Blackjack
+from src.utils.owner import Owner
 
-import os
-sys.path.append(
-    os.path.join(
-        os.path.abspath(
-            os.path.dirname(__file__)),
-        'utils/'))
+import src
+sys.path.append(src.__path__)
 
 
 class TestOwner(unittest.TestCase):

@@ -1,15 +1,11 @@
 import sys
 import unittest
 
-from utils.dealer import Dealer
-from utils.game_part import Blackjack
+from src.utils.dealer import Dealer
+from src.utils.game_part import Blackjack
 
-import os
-sys.path.append(
-    os.path.join(
-        os.path.abspath(
-            os.path.dirname(__file__)),
-        'utils/'))
+import src
+sys.path.append(src.__path__)
 
 
 class TestDealer(unittest.TestCase):
