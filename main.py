@@ -1,4 +1,4 @@
-from game import Blackjack
+from .src.game import Blackjack
 
 if __name__ == '__main__':
     print()
