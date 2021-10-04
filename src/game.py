@@ -1,9 +1,9 @@
 import random
 import sys
 
-from src.utils.card import Card
-from src.utils.dealer import Dealer
-from src.utils.player import Player
+from utils.card import Card
+from utils.dealer import Dealer
+from utils.player import Player
 
 # 一個上の階層をpathに追加
 sys.path.append('../../blackjack-for-console-python')

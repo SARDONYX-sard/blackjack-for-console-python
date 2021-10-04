@@ -1,8 +1,8 @@
 import sys
 import unittest
 
-from src.utils.dealer import Dealer
-from src.utils.game_part import Blackjack
+from utils.dealer import Dealer
+from utils.game_part import Blackjack
 
 sys.path.append('../../blackjack-for-console-python')
 

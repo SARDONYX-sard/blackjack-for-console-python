@@ -1,7 +1,7 @@
 import sys
 import unittest
 
-from src.utils.card import Card
+from utils.card import Card
 
 sys.path.append('../../blackjack-for-console-python')
 
