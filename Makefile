@@ -14,7 +14,7 @@ lint:
 		poetry run flake8 ./src ./__test__  --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
 test:
-		poetry run pytest __test__/
+		poetry run python -m unittest
 
 clean:
 		rm -rf  **/__pycache__ **/**/__pycache__ uild dist *.spec
