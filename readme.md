@@ -13,13 +13,15 @@
 
 ### make Usage
 
-- Install Dependencies(execute first step)
+- Install Dependencies(need poetry)
 
 ```shell
-make setup
+make i
+# or
+make install
 ```
 
-- Execute Blackjack (You have to execute the command `make setup`)
+- Execute Blackjack (after `make i`)
 
 ```shell
 make
