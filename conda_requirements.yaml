@@ -1,8 +1,0 @@
-name: latest-python
-channels:
-  - https://conda.anaconda.org/cogsci
-  - defaults
-dependencies:
-  - pyinstaller=3.6=py39h8cc25b3_6
-
-prefix: C:\Users\SARDONYX\anaconda3\envs\latest-python

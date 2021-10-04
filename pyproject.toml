@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "blackjack-for-console-python"
+version = "0.1.0"
+description = ""
+authors = ["SARDONYX-sard <68905624+SARDONYX-sard@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyinstaller = "^4.5.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+autopep8 = "^1.5.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
