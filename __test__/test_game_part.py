@@ -3,7 +3,12 @@ import unittest
 
 from utils.game_part import Blackjack
 
-sys.path.append('../../blackjack-for-console-python/src/utils')
+import os
+sys.path.append(
+    os.path.join(
+        os.path.abspath(
+            os.path.dirname(__file__)),
+        'utils/'))
 
 
 class TestOwner(unittest.TestCase):
