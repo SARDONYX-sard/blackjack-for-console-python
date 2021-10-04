@@ -6,7 +6,6 @@ authors = ["SARDONYX-sard <68905624+SARDONYX-sard@users.noreply.github.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.9"
 pyinstaller = "^4.5.1"
 
 [tool.poetry.dev-dependencies]
