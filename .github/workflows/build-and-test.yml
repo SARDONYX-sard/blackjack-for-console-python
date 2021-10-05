@@ -1,5 +1,5 @@
 # workflowの名前
-name: BlackJack / Build & Test
+name: Build & Test
 
 # トリガーの設定
 on:
