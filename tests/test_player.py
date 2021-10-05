@@ -2,7 +2,7 @@ import sys
 import unittest
 
 from src.utils.game_part import Blackjack
-from src.utils.player import Player
+from src.utils.persons.player import Player
 
 import src
 sys.path.append(src.__path__)

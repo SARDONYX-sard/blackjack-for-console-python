@@ -26,8 +26,17 @@
     "**/.idea": true
   },
 
-  // Specifies the folder path containing the tsserver and lib*.d.ts files to use.
-  // "typescript.tsdk": "node_modules/typescript/lib",
+  "files.associations": {
+    ".env": "dotenv",
+    ".envpath": "shellscript",
+    ".eslintignore": "gitignore",
+    ".gitignore": "ignore",
+    "*.html": "html",
+    "*.json": "jsonc",
+    "*.md": "markdown",
+    "*.txt": "txt",
+    "*.spec": "python"
+  },
 
   // ---------------------------------------------------------------------------------------------------------------------------
   // Language Setings
@@ -52,5 +61,5 @@
   "python.linting.lintOnSave": true,
   "python.linting.pycodestyleEnabled": false,
   "python.linting.pylintEnabled": false,
-  "python.pythonPath": "${workspaceRoot}/.venv/bin/python"
+  "python.pythonPath": "${workspaceRoot}/.venv/bin/python",
 }

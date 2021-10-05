@@ -1,6 +1,6 @@
 import unittest
 
-from src.utils.dealer import Dealer
+from src.utils.persons.dealer import Dealer
 from src.utils.game_part import Blackjack
 
 

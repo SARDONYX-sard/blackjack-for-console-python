@@ -11,8 +11,3 @@ class Blackjack:
 
     def pop(self):
         return self.cards.pop(0)
-
-
-if __name__ == '__main__':
-    bj = Blackjack(0)
-    print(bj.pop(), bj.pop(), bj.pop(), bj.pop())

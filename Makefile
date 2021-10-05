@@ -1,5 +1,5 @@
 exec:
-		poetry run py -3 -m src
+		poetry run py -3 -m src/run.py
 
 i:
 		make install
@@ -8,7 +8,7 @@ install:
 		poetry install --no-interaction
 
 build: clean
-		poetry run pyinstaller main.py --onefile -n blackjack
+		poetry run pyinstaller ./src/run.py --clean --onefile --name blackjack --distpath ../dist
 
 lint:
 		# stop the build if there are Python syntax errors or undefined names
@@ -19,8 +19,11 @@ lint:
 test:
 		poetry run python -m unittest
 
+exetest:
+		make build
+		cd ./dist && ./blackjack.exe
 clean:
-		rm -rf  **/__pycache__ **/**/__pycache__ uild dist *.spec
+		rm -rf  **/__pycache__ **/**/__pycache__
 
 
 .PHONY: clean test
